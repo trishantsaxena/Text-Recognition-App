@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
 
 android {
     compileSdkVersion 29
@@ -23,6 +24,11 @@ android {
 }
 
 dependencies {
+    implementation 'com.google.firebase:firebase-bom:26.1.0'
+    implementation 'com.google.firebase:firebase-analytics:18.0.0'
+
+    implementation 'com.google.android.gms:play-services-mlkit-text-recognition:16.1.1'
+    implementation 'com.google.firebase:firebase-auth:20.0.1'
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "111998506403",
+    "firebase_url": "https://textrecognition-3d150.firebaseio.com",
+    "project_id": "textrecognition-3d150",
+    "storage_bucket": "textrecognition-3d150.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:111998506403:android:87911b88cf3a06a75f7616",
+        "android_client_info": {
+          "package_name": "com.trishantsaxenaco.textrecognition"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "111998506403-d4qshe9is3a7b09h705trinqkkkcv626.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmB3XxTAVeNMEbOXUHI_i6G6c4i-Psc84"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "111998506403-d4qshe9is3a7b09h705trinqkkkcv626.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
